@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.message {
+  color: #1d4ed8;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+button {
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+
+.checks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
