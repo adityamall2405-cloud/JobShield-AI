@@ -1,0 +1,5 @@
+Write-Host "Start backend in terminal 1:"
+Write-Host "  powershell -ExecutionPolicy Bypass -File .\start_backend.ps1"
+Write-Host ""
+Write-Host "Start frontend in terminal 2:"
+Write-Host "  powershell -ExecutionPolicy Bypass -File .\start_frontend.ps1"
